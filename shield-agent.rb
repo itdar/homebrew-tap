@@ -11,7 +11,7 @@ class ShieldAgent < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/itdar/shield-agent/releases/download/v1.0.2/shield-agent_1.0.2_darwin_amd64.tar.gz"
-      sha256 "f099ef417ce950e76c118822d0b09523c3d0f38832087b64c5356f8886e34450"
+      sha256 "7f51170c0907d6e9a93f996f06deb6e8325c40c314aae2b1e58c99aae2596d8c"
 
       define_method(:install) do
         bin.install "shield-agent"
@@ -19,7 +19,7 @@ class ShieldAgent < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/itdar/shield-agent/releases/download/v1.0.2/shield-agent_1.0.2_darwin_arm64.tar.gz"
-      sha256 "d67076e015b265d81ca63ef849cf84828f473df8268933d9a19eac249e8311c2"
+      sha256 "ff629a454a1a39257e9d2493612d0d3128b66c9515461942826f39a741250e06"
 
       define_method(:install) do
         bin.install "shield-agent"
@@ -30,14 +30,14 @@ class ShieldAgent < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/itdar/shield-agent/releases/download/v1.0.2/shield-agent_1.0.2_linux_amd64.tar.gz"
-      sha256 "7e9d2691256797a88a1b6f355b74d96bb044a16b5a6364396e9a18bd6d5524dc"
+      sha256 "cd8fc7c16f66a21ee4aa701e61dc530948a07bb582b8cee03474f625a7be9157"
       define_method(:install) do
         bin.install "shield-agent"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/itdar/shield-agent/releases/download/v1.0.2/shield-agent_1.0.2_linux_arm64.tar.gz"
-      sha256 "a1b9a4a7af282ad123a65aac6e339236316d7a3eb69649035d1781e3c8710277"
+      sha256 "92c4245f78832eb85a9aab27e035fb9a2af268ba1c5b6d6f2716e50b2d61df6f"
       define_method(:install) do
         bin.install "shield-agent"
       end
