@@ -7,13 +7,10 @@ class AiAgency < Formula
   license "MIT"
 
   def install
-    # Install main scripts to share directory
     (share/"ai-agency").install "ai-agency.sh"
     (share/"ai-agency").install "setup.sh"
     (share/"ai-agency").install "HOW_TO_AGENTS.md"
     (share/"ai-agency/scripts").install "scripts/sync-ai-rules.sh"
-
-    # Install the global CLI wrapper
     bin.install "bin/ai-agency"
   end
 
