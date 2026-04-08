@@ -1,17 +1,17 @@
 class AiAgency < Formula
   desc "AI agent session launcher - AGENTS.md-based multi-agent orchestration"
   homepage "https://github.com/itdar/ai-agency"
-  url "https://github.com/itdar/ai-agency/archive/refs/tags/v3.4.0.tar.gz"
-  version "3.4.0"
-  sha256 "039c3c46acce0b63aaa4de5cb1e8d722655bfc59c870abd33e3e6c9ef3cd7de1"
+  url "https://github.com/itdar/ai-agency/archive/refs/tags/v4.0.0.tar.gz"
+  version "4.0.0"
+  sha256 "d036efc5c1555df71d67df0621a024539e01d87fa923cb70a8447e7b8231fc7b"
   license "MIT"
 
   def install
-    (share/"ai-agency").install "ai-agency.sh"
-    (share/"ai-agency").install "setup.sh"
-    (share/"ai-agency").install "HOW_TO_AGENTS.md"
-    (share/"ai-agency/scripts").install "scripts/sync-ai-rules.sh"
-    bin.install "bin/ai-agency"
+    (share/"ai-agency").install "src/ai-agency.sh"
+    (share/"ai-agency").install "src/setup.sh"
+    (share/"ai-agency").install "src/HOW_TO_AGENTS.md"
+    (share/"ai-agency/scripts").install "src/scripts/sync-ai-rules.sh"
+    bin.install "src/bin/ai-agency"
   end
 
   def caveats
