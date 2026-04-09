@@ -1,9 +1,9 @@
 class AiAgency < Formula
   desc "AI agent session launcher - AGENTS.md-based multi-agent orchestration"
   homepage "https://github.com/itdar/ai-agency"
-  url "https://github.com/itdar/ai-agency/archive/refs/tags/v4.1.1.tar.gz"
-  version "4.1.1"
-  sha256 "bae889139b3b634ec50cff0f75bc03871eb22194d7f0cd270f52a7478006d0c9"
+  url "https://github.com/itdar/ai-agency/archive/refs/tags/v4.1.2.tar.gz"
+  version "4.1.2"
+  sha256 "3692ace06b80e5f1d811e7c168352a2d95cae9d908265fe1f03de6790ec8e442"
   license "MIT"
 
   def install
