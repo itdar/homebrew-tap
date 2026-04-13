@@ -3,7 +3,7 @@ class AiAgency < Formula
   homepage "https://github.com/itdar/ai-agency"
   url "https://github.com/itdar/ai-agency/archive/refs/tags/v5.0.5.tar.gz"
   version "5.0.5"
-  sha256 "f29498c75bdc5bacb1f30a244340ba58984bad96ef55ae95fbcbc0c78d420aac"
+  sha256 "1de02d85a9b06082fd7b36d9b1d8929f7b5a386d43c6ebca66998f85f861c8ad"
   license "MIT"
 
   def install
