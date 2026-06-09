@@ -5,21 +5,21 @@
 class ShieldAgent < Formula
   desc "Security middleware proxy for MCP servers and AI agents"
   homepage "https://github.com/itdar/shield-agent-dist"
-  version "2.3.8"
+  version "2.3.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.8/shield-agent_2.3.8_darwin_amd64.tar.gz"
-      sha256 "e6973a42bc16b6ddeaca552b3e11832db7c131eaba14fef4628bbb5be6bd8b52"
+      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.9/shield-agent_2.3.9_darwin_amd64.tar.gz"
+      sha256 "8fb76448bb766c336b6b497e21b8faf0b1f4b0b7c43b866b3b774eb62372b417"
 
       define_method(:install) do
         bin.install "shield-agent"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.8/shield-agent_2.3.8_darwin_arm64.tar.gz"
-      sha256 "dc02e26df114afc3b0eb981b272eb622ff400a5205124d621b14be731d2ea0a9"
+      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.9/shield-agent_2.3.9_darwin_arm64.tar.gz"
+      sha256 "a1fc94deb7a71dbec5aad0d57710c522c2dc59046328d461f7d9b1d7a78d7eb4"
 
       define_method(:install) do
         bin.install "shield-agent"
@@ -29,15 +29,15 @@ class ShieldAgent < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.8/shield-agent_2.3.8_linux_amd64.tar.gz"
-      sha256 "b3e2a6226d217e6edc0cf3aececb030c0d466350962ae27bc62bddb96c21f3d6"
+      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.9/shield-agent_2.3.9_linux_amd64.tar.gz"
+      sha256 "fedcc667acf0172991cc1cd1c3ea01e1d7f04a1ae13d8b7acd086a3193e2c974"
       define_method(:install) do
         bin.install "shield-agent"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.8/shield-agent_2.3.8_linux_arm64.tar.gz"
-      sha256 "e46ca990f2f8a7d7e4107d6badf25e37e3b30672a74690100010beb0d1f02fa5"
+      url "https://github.com/itdar/shield-agent-dist/releases/download/v2.3.9/shield-agent_2.3.9_linux_arm64.tar.gz"
+      sha256 "7ce5f55a3faf23401ddda55317380d66b7bbd6a07bb6a1bf23958362d1b8f0d1"
       define_method(:install) do
         bin.install "shield-agent"
       end
