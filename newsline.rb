@@ -4,10 +4,10 @@
 # (You normally never edit the deployed formula by hand.)
 class Newsline < Formula
   desc "Locale-aware one-line news in your Claude Code status line"
-  homepage "https://github.com/itdar/cc-plugin"
-  url "https://github.com/itdar/cc-plugin/archive/refs/tags/v0.1.5.tar.gz"
-  version "0.1.5"
-  sha256 "5997ccd58af4e26fb99b291a59845f69c8873386d062eedac01e4372e67803c1"
+  homepage "https://github.com/itdar/newsline"
+  url "https://github.com/itdar/newsline/archive/refs/tags/v0.1.6.tar.gz"
+  version "0.1.6"
+  sha256 "0370c618e812a523e8feb0771a2c0824a4e449b0e27d43f3e198850368f7a959"
   license "MIT"
 
   depends_on "python@3.12"
