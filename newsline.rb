@@ -5,16 +5,16 @@
 class Newsline < Formula
   desc "Locale-aware one-line news in your Claude Code status line"
   homepage "https://github.com/itdar/newsline"
-  url "https://github.com/itdar/newsline/archive/refs/tags/v1.0.5.tar.gz"
-  version "1.0.5"
-  sha256 "e1fd22d9aa091a19cd48d9ca6e9a076df93bdac7ba99e210cda2d1ba6e8f07b0"
+  url "https://github.com/itdar/newsline/archive/refs/tags/v1.0.6.tar.gz"
+  version "1.0.6"
+  sha256 "615646e0ac9c258b25e0b7ddae6986ff596f8fdfc410a1686d21bc06b0dfe5cb"
   license "MIT"
 
   depends_on "python@3.12"
 
   def install
-    libexec.install "newsline", "statusline.sh", "refresh.sh",
-                    "fetch.py", "resolve.py", "feeds.json"
+    libexec.install "newsline", "statusline.sh", "refresh.sh", "refresh_stock.sh",
+                    "fetch.py", "fetch_stock.py", "resolve.py", "feeds.json"
     bin.install_symlink libexec/"newsline"
   end
 
