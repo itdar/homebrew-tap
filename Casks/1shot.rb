@@ -1,8 +1,8 @@
 cask "1shot" do
-  version "0.8.16"
-  sha256 "5037c0c9bf66cf62dbc4a0a32802f9b31f1c61c4ede5d626ef1a93656bbc7d3f"
+  version "0.8.17"
+  sha256 "84492cb531bcd4e279b43b79813624c01b2321862772d444dc1582575e1fd684"
 
-  url "https://github.com/itdar/1shot-dist/releases/download/v0.8.16/1shot-#{version}.zip"
+  url "https://github.com/itdar/1shot-dist/releases/download/v0.8.17/1shot-#{version}.zip"
   name "1shot"
   desc "Types stored logins into the focused field without exposing them to agents"
   homepage "https://github.com/itdar/1shot-dist"
