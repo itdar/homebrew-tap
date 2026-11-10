@@ -7,7 +7,7 @@ class Newsline < Formula
   homepage "https://github.com/itdar/newsline"
   url "https://github.com/itdar/newsline/archive/refs/tags/v1.0.7.tar.gz"
   version "1.0.7"
-  sha256 "14ac27a7e75c88767f146f222862b8c77b18e4e62e280922fe448739a5ed997b"
+  sha256 "1544c99fbd4b6bfb9e9c0869b2038067b76ed4adcc85b2fb8f35f8eb3f5cf92e"
   license "MIT"
 
   depends_on "python@3.12"
