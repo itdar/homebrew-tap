@@ -5,9 +5,9 @@
 class Newsline < Formula
   desc "Locale-aware one-line news in your Claude Code status line"
   homepage "https://github.com/itdar/newsline"
-  url "https://github.com/itdar/newsline/archive/refs/tags/v1.0.6.tar.gz"
-  version "1.0.6"
-  sha256 "615646e0ac9c258b25e0b7ddae6986ff596f8fdfc410a1686d21bc06b0dfe5cb"
+  url "https://github.com/itdar/newsline/archive/refs/tags/v1.0.7.tar.gz"
+  version "1.0.7"
+  sha256 "14ac27a7e75c88767f146f222862b8c77b18e4e62e280922fe448739a5ed997b"
   license "MIT"
 
   depends_on "python@3.12"
